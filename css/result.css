@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+@keyframes fadeIn{
+    from{opacity:0; transform: translateY(-10px);}
+    to{opacity:1; transform: translateY(0px);}
+}
+#result {
+    display: none;
+    min-height: 100vh;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 5px;
+    background: rgb(0, 0, 0);
+    color:aliceblue;
+    text-align: center;
+    word-break: keep-all;
+    opacity: 0;
+}
+
+#score-box{
+    margin-bottom: 40px;
+}
+
+#score-box > .title {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    color:aliceblue;
+}
+#score-box > .point {
+    margin: 10px 0 50px 0;
+    font-size: 64px;
+    font-size: 4rem;
+    font-weight: bolder;
+    color:aliceblue;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.pin {
+    width: 30px; 
+    height: 30px;
+    background-image: url('../img/pin.png');
+    background-size: cover;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.up, .down{
+    margin: 0 5%;
+    width: 90%;
+    height: 5px;
+    background: rgba(31, 204, 31, 0.788);
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.score-bar {
+    margin: 0 5%;
+    width: 90%;
+    height: 30px;
+    background: rgb(0, 0, 0);
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+/*여기 나중에 고쳐야함*/
+.desc {
+    margin: 30px 7.5%;
+    width: 85%;
+    line-height: 28.8px;
+    line-height: 1.8rem;
+    font-size: 17.6px;
+    font-size: 1.1rem;
+    font-weight: 350;
+}
+#desc-box ~ p {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#share-box {
+  box-sizing: border-box;
+  margin: 10px 10% 0px 10%;
+  padding: 10px;
+  width: 80%;
+  height: 50px;
+  border-radius: 40px;
+  background: rgb(0, 0, 0);
+}
+#share-box span {
+  display: inline-block;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-size: cover;
+  cursor: pointer;
+}
+.tw{
+    background-image: url('../img/tw.svg');
+    /* 
+    자료 출처
+    http://www.vectorico.com/twitter-logo-white-on-blue/
+    */ 
+}
+.fb {
+    background-image: url('../img/fb.svg');
+    /* 
+    자료 출처
+    https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2019).svg
+    */
+}
+.nv {
+    background-image: url('../img/naver.png');
+    /*
+    자료 출처
+    https://www.facebook.com/184030231730640/photos/1175959155871071/
+    */
+}
+.band {
+    background-image: url('../img/band.png');
+    /*
+    자료 출처
+    https://upload.wikimedia.org/wikipedia/commons/3/30/2._BAND_Icon.png
+    */
+}
+.btn {
+  box-sizing: border-box;
+  margin: 0 30% 0 30%;
+  margin-top: 0px;
+  width: 20%;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 20px;
+  background: rgb(0, 0, 0);
+  color: rgb(73, 173, 255);
+
+}
+.hash {
+    color: rgb(73, 173, 255);
+    word-wrap: break-word;
+}
+.caution > p {
+    line-height: 20px;
+    font-size: 15px;
+}

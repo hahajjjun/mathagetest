@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+  background: #000000;
+  color:aliceblue;
+}
+
+#everything{
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10px 0 20px 0;
+  width: 100%;
+  min-width: 100%;
+}
